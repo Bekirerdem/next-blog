@@ -2,8 +2,8 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header>
-      <nav>
+    <header className="site-container py-6">
+      <nav className="space-x-4">
         <Link href="/">
           <a>Hakkımda</a>
         </Link>
