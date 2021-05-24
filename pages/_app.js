@@ -1,14 +1,14 @@
-import "tailwindcss/tailwind.css";
-import Header from "../components/header";
+import "../styles/global.css";
+import Header from "../components/index";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="antialiased text-gray-700">
       <Header />
-      <main>
+      <main className="mt-5">
         <Component {...pageProps} />
       </main>
-    </>
+    </div>
   );
 }
 
