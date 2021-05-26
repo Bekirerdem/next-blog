@@ -6,6 +6,7 @@
 2. Tailwind.css
 3. Auth0
 4. Vercel
+5. Redis
 
 ### İçerik
 
